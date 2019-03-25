@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/carousel_item"
+        android:textColor="#aaaaaa"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1.5dp"
+        android:text="贝贝管家，让天下没有难还的信用卡"/>
+
+</LinearLayout>
